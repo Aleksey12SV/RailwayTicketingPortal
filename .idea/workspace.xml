@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e228b20-1a28-49c3-aa1c-0953d68d2419" name="Changes" comment="Initial Project (Lab3)">
-      <change afterPath="$PROJECT_DIR$/labs/Lab1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/railway/train/gui/TrainCellRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/railway/utils/HelperGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/railway/RailwayPortalGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/railway/RailwayPortalGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/railway/booking/BookingModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/railway/booking/BookingModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/railway/reservation/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/railway/reservation/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/railway/train/MockedDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/railway/train/MockedDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/railway/train/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/railway/train/Train.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +45,11 @@
     "last_opened_file_path": "C:/Users/Aleksey Svistunov/source/RailwayPortal"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aleksey Svistunov\source\RailwayPortal\labs" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

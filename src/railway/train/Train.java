@@ -44,25 +44,12 @@ public class Train {
         return baseTicketPrice;
     }
 
+    public String getFormattedInfo() {
+        return String.format("Train Number: %s%nStarting City: %s%nDestination City: %s%nDeparture Time: %s%nDestination Day: %s%nBase Ticket Price: %.2f",
+                getTrainNumber(), getStartingCity(), getDestination(), getDepartureTime(), getDepartureDay(), getBaseTicketPrice());
+    }
+
     public void setAvailableSeats(int availableSeats) {
         this.availableSeats = availableSeats;
-    }
-
-    public void displayTrainInfo() {
-        System.out.println("Train Number: " + trainNumber);
-        System.out.println("Starting City: " + startingCity);
-        System.out.println("Destination: " + destination);
-        System.out.println("Departure Time: " + departureTime);
-        System.out.println("Available Seats: " + availableSeats);
-        System.out.println("Base Ticket Price: $" + baseTicketPrice);
-    }
-
-    public void bookSeat() {
-        if (availableSeats > 0) {
-            availableSeats--;
-            System.out.println("Seat booked successfully.");
-        } else {
-            System.out.println("No available seats for booking.");
-        }
     }
 }

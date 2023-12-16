@@ -15,35 +15,17 @@ public class Reservation {
         this.train = train;
         this.numberOfPassengers = numberOfPassengers;
         this.totalCost = totalCost;
-        this.reservationDate = new Date(); // Set the reservation date to the current date and time
+        this.reservationDate = new Date();
     }
 
-    // Getters for attributes
-
-    public Train getTrain() {
-        return train;
-    }
-
-    public int getNumberOfPassengers() {
-        return numberOfPassengers;
-    }
-
-    public double getTotalCost() {
-        return totalCost;
-    }
-
-    public Date getReservationDate() {
-        return reservationDate;
-    }
-
-
-    public void displayReservationInfo() {
+    public String getReservationInfo() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        System.out.println("Reservation Date: " + dateFormat.format(reservationDate));
-        System.out.println("Train Number: " + train.getTrainNumber());
-        System.out.println("Destination: " + train.getDestination());
-        System.out.println("Departure Time: " + train.getDepartureTime());
-        System.out.println("Number of Passengers: " + numberOfPassengers);
-        System.out.println("Total Cost: $" + totalCost);
+        String formattedDate = dateFormat.format(reservationDate);
+
+        return String.format(
+                "Train Number: %s\nDestination: %s\nDeparture Time: %s\nNumber of Passengers: %d\nTotal Cost: $%.2f\nReservation Date: %s\n\n",
+                train.getTrainNumber(), train.getDestination(), train.getDepartureTime(),
+                numberOfPassengers, totalCost, formattedDate);
     }
+
 }
