@@ -9,8 +9,8 @@ public class MockedDatabase {
         List<Train> trains = new ArrayList<>();
 
         for (int i = 1; i <= 30; i++) {
-            String startingCity = "City" + (i % 5 + 1);
-            String destinationCity = "City" + ((i + 2) % 5 + 1);
+            String startingCity = "City" + (i % 5);
+            String destinationCity = "City" + ((i + 2) % 5);
 
             Train morningTrain = createTrain("Train" + i, startingCity, destinationCity, "09:30", "18/12/2023", 50, 100 + 50 * (i % 5));
             trains.add(morningTrain);

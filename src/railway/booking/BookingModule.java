@@ -58,7 +58,7 @@ public class BookingModule {
         }
     }
 
-    private boolean isRushHour(Train train) {
+    boolean isRushHour(Train train) {
         SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm");
         try {
             Date departureTime = timeFormat.parse(train.getDepartureTime());

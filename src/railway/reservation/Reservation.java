@@ -19,7 +19,7 @@ public class Reservation {
     }
 
     public String getReservationInfo() {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         String formattedDate = dateFormat.format(reservationDate);
 
         return String.format(

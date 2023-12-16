@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e228b20-1a28-49c3-aa1c-0953d68d2419" name="Changes" comment="Initial Project (Lab3)">
-      <change afterPath="$PROJECT_DIR$/src/railway/train/gui/TrainCellRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/railway/utils/HelperGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/railway/booking/BookingModuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/railway/reservation/ReservationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/railway/train/MockedDatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/railway/train/TrainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/railway/train/gui/TrainCellRendererTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RailwayPortal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RailwayPortal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RailwayPortal/railway/RailwayPortalGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RailwayPortal/railway/RailwayPortalGUI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RailwayPortal/railway/RailwayPortalGUI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RailwayPortal/railway/RailwayPortalGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RailwayPortal/railway/booking/BookingModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RailwayPortal/railway/reservation/Reservation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RailwayPortal/railway/train/MockedDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RailwayPortal/railway/train/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RailwayPortal/railway/train/gui/TrainCellRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RailwayPortal/railway/utils/HelperGUI.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/railway/RailwayPortalGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/railway/RailwayPortalGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/railway/booking/BookingModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/railway/booking/BookingModule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/railway/reservation/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/railway/reservation/Reservation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/railway/train/MockedDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/railway/train/MockedDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/railway/train/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/railway/train/Train.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +53,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
     "last_opened_file_path": "C:/Users/Aleksey Svistunov/source/RailwayPortal"
   }
 }]]></component>
@@ -49,6 +67,87 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aleksey Svistunov\source\RailwayPortal\labs" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in RailwayPortal">
+    <configuration name="All in RailwayPortal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RailwayPortal" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockedDatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RailwayPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="railway.train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="railway.train" />
+      <option name="MAIN_CLASS_NAME" value="railway.train.MockedDatabaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockedDatabaseTest.testGetAllTrains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RailwayPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="railway.train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="railway.train" />
+      <option name="MAIN_CLASS_NAME" value="railway.train.MockedDatabaseTest" />
+      <option name="METHOD_NAME" value="testGetAllTrains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainCellRendererTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RailwayPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="railway.train.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="railway.train.gui" />
+      <option name="MAIN_CLASS_NAME" value="railway.train.gui.TrainCellRendererTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainCellRendererTest.testGetListCellRendererComponent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RailwayPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="railway.train.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="railway.train.gui" />
+      <option name="MAIN_CLASS_NAME" value="railway.train.gui.TrainCellRendererTest" />
+      <option name="METHOD_NAME" value="testGetListCellRendererComponent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in RailwayPortal" />
+        <item itemvalue="JUnit.TrainCellRendererTest.testGetListCellRendererComponent" />
+        <item itemvalue="JUnit.TrainCellRendererTest" />
+        <item itemvalue="JUnit.MockedDatabaseTest.testGetAllTrains" />
+        <item itemvalue="JUnit.MockedDatabaseTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,5 +182,35 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Project (Lab3)" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Project (Lab3)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/railway/reservation/ReservationTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/railway/train/TrainTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/railway/reservation/ReservationTest.java</url>
+          <line>13</line>
+          <properties class="railway.reservation.ReservationTest" method="getReservationInfo_ShouldReturnFormattedString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="railway.train.gui.TrainCellRenderer" memberName="text" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

@@ -36,7 +36,7 @@ public class RailwayPortalGUI {
     private Train selectedTrain;
     private JButton viewBookingsButton;
 
-    private void configureListeners(BookingModule bookingSystem) {
+    void configureListeners(BookingModule bookingSystem) {
         passengersField.getDocument().addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {
